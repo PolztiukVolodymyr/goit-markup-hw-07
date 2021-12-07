@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,KAAK,AAAC,CACJ,oBAAoB,CAAA,QAAC,CACrB,kBAAkB,CAAA,QAAC,CACnB,cAAc,CAAA,QAAC,CAChB,ACJD,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,iBAAiB,CACjC,AAED,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,uBAAuB,CAC9B,WAAW,CAAE,OAAO,CACpB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,IAAI,CACjB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,mBAAmB,CAC3B,ACjBD,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,CAAC,CACD,EAAE,AAAC,CACD,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CACnB,AAED,AAAA,KAAK,AAAC,CACJ,UAAU,CAAE,IAAI,CAChB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_vars.scss",
+        "../sass/layout/_header.scss",
+        "../sass/base/_reset.scss"
     ],
     "names": [],
     "file": "main.min.css"

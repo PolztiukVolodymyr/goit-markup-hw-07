@@ -7,7 +7,7 @@ button {
 
 .button-hero {
   background-color: var(--accent-color);
-  color: #e5e5e5;
+  color: var(--second-btn-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -17,7 +17,7 @@ button {
 
 .button-item {
   background-color: #f5f4fa;
-  color: var(--title-text-color);
+  color: var(--basic-btn-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -27,7 +27,7 @@ button {
   &:hover,
   &:focus {
     background-color: var(--accent-color);
-    color: #e5e5e5;
+    color: var(--second-btn-color);
     cursor: pointer;
 
     font-weight: 500;
@@ -68,7 +68,7 @@ button {
   align-items: center;
   display: inline-flex;
   background-color: var(--accent-color);
-  color: #e5e5e5;
+  color: var(--second-btn-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -79,6 +79,6 @@ button {
 .footer-airplane {
   width: 24px;
   height: 24px;
-  fill: #ffffff;
+  fill: var(--second-btn-color);
   margin-left: 10px;
 }

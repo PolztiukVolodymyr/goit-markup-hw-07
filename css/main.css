@@ -2,6 +2,12 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --second-text-color: #ffffff;
+  --different-section-color: #f5f4fa;
+  --basic-btn-color: #212121;
+  --second-btn-color: #ffffff;
+  --logo-font: Raleway;
+  --basic-font: Roboto;
 }
 
 h1,
@@ -24,7 +30,7 @@ ul {
 
 body {
   color: var(--primery-text-color);
-  font-family: Roboto, sant-serif;
+  font-family: var(--basic-font), sant-serif;
 }
 
 .header {
@@ -135,7 +141,7 @@ body {
 
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -253,7 +259,7 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--different-section-color);
 }
 
 .item-team {
@@ -266,7 +272,7 @@ body {
   border-top: none;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: var(--second-text-color);
 }
 
 .list-team {
@@ -316,7 +322,7 @@ body {
 .command-socials-link {
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: var(--second-text-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -327,7 +333,7 @@ body {
 
 .command-socials-link:hover, .command-socials-link:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--second-text-color);
   cursor: pointer;
 }
 
@@ -400,7 +406,7 @@ button {
 
 .button-hero {
   background-color: var(--accent-color);
-  color: #e5e5e5;
+  color: var(--second-btn-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -410,7 +416,7 @@ button {
 
 .button-item {
   background-color: #f5f4fa;
-  color: var(--title-text-color);
+  color: var(--basic-btn-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -421,7 +427,7 @@ button {
 
 .button-item:hover, .button-item:focus {
   background-color: var(--accent-color);
-  color: #e5e5e5;
+  color: var(--second-btn-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -459,7 +465,7 @@ button {
   align-items: center;
   display: inline-flex;
   background-color: var(--accent-color);
-  color: #e5e5e5;
+  color: var(--second-btn-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -470,7 +476,7 @@ button {
 .footer-airplane {
   width: 24px;
   height: 24px;
-  fill: #ffffff;
+  fill: var(--second-btn-color);
   margin-left: 10px;
 }
 
@@ -675,7 +681,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #ffffff;
+  background-color: var(--second-text-color);
   width: 528px;
   height: 581px;
   border-radius: 4px;
@@ -696,7 +702,7 @@ button {
   border-radius: 50%;
   top: 8px;
   right: 8px;
-  background-color: #ffffff;
+  background-color: var(--second-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -710,6 +716,19 @@ button {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.button-modal-big {
+  background-color: var(--accent-color);
+  color: var(--second-btn-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 55px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 .modal-title {
   margin-bottom: 12px;
   font-weight: bold;
@@ -717,14 +736,14 @@ button {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--primery-text-color);
 }
 
 .modal-wrap {
@@ -829,19 +848,6 @@ button {
 .check-link {
   color: var(--accent-color);
   margin-left: 3px;
-}
-
-.button-modal-big {
-  background-color: var(--accent-color);
-  color: #e5e5e5;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  padding: 10px 55px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
 }
 
 .container {

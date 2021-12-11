@@ -2,14 +2,14 @@
   display: flex;
 }
 
-.client-list {
+.client__list {
   display: flex;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.client-icon {
+.client__icon {
   width: 170px;
   height: 92px;
   fill: #afb1b8;

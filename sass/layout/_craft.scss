@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.craft-img-box {
+.list-craft__box {
   position: relative;
 }
 
@@ -11,7 +11,7 @@
   display: block;
 }
 
-.craft-box-text {
+.list-craft__row {
   position: absolute;
   bottom: 0;
 
@@ -24,7 +24,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
-.craft-img-text {
+.list-craft__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

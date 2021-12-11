@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
-.logo-part {
+.logo__part {
   color: var(--accent-color);
+}
+
+.logo__part--light {
+  color: #ffffff;
 }

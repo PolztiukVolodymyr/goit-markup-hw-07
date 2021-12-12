@@ -552,51 +552,51 @@
             </use>
           </svg>
         </button>
-        <p class="modal-title">Оставте свои данные, мы вам перезвоним</p>
+        <p class="modal__title">Оставте свои данные, мы вам перезвоним</p>
 
         <form class="modal-form">
 
-          <label for="user-name" class="modal-label">Имя</label>
-          <span class="modal-wrap">
-              <input type="text" name="user-name" id="user-name" class="row">
-              <svg class="modal-icon">
+          <label for="user-name" class="modal-form__label">Имя</label>
+          <span class="modal-form__inner">
+              <input type="text" name="user-name" id="user-name" class="modal-form__input">
+              <svg class="modal-form__icon">
                  <use href="./images/symbol-defs.svg#icon-person"></use>
               </svg>
           </span>
           
 
-          <label for="user-phone" class="modal-label">Телефон</label>
-          <span class="modal-wrap">
-            <input type="tel" name="user-phone" id="user-phone" class="row">
-            <svg class="modal-icon">
+          <label for="user-phone" class="modal-form__label">Телефон</label>
+          <span class="modal-form__inner">
+            <input type="tel" name="user-phone" id="user-phone" class="modal-form__input">
+            <svg class="modal-form__icon">
               <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
             </svg>
           </span>
           
 
-          <label for="user-mail" class="modal-label">Почта</label>
-          <span class="modal-wrap">
-            <input type="email" name="user-mail" id="user-mail" class="row">
-            <svg class="modal-icon">
+          <label for="user-mail" class="modal-form__label">Почта</label>
+          <span class="modal-form__inner">
+            <input type="email" name="user-mail" id="user-mail" class="modal-form__input">
+            <svg class="modal-form__icon">
               <use href="./images/symbol-defs.svg#icon-email"></use>
             </svg>
           </span>
           
 
 
-          <label for="comment" class="modal-label">Коментарий</label>
-          <textarea name="comment" id="comment" class="textarea" placeholder="Введите текст"></textarea>
+          <label for="comment" class="modal-form__label">Коментарий</label>
+          <textarea name="comment" id="comment" class="modal-form__textarea" placeholder="Введите текст"></textarea>
 
 
-          <div class="checkbox-inner">
-            <input type="checkbox" name="contract" value="contract" id="contract" class="checkbox  visually-hidden">
-            <label for="contract" class="check-text">
-              <span class="check-item">
-                <svg class="check-icon" width="16" height="15">
+          <div class="checkbox">
+            <input type="checkbox" name="contract" value="contract" id="contract" class="checkbox__input  visually-hidden">
+            <label for="contract" class="checkbox__text">
+              <span class="checkbox__item">
+                <svg class="checkbox__icon" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-checkbox-blue"></use>
                 </svg>
               </span> Соглашаюсь с рассылкой и принимаю
-              <a href="" class="check-text check-link">Условия договора </a>
+              <a href="#" class="checkbox__text checkbox__link">Условия договора </a>
               
             </label>
           </div>

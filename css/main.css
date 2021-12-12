@@ -142,7 +142,6 @@ body {
 }
 
 .logo {
-  color: var(--title-text-color);
   font-family: var(--logo-font);
   font-style: normal;
   font-weight: bold;
@@ -156,7 +155,11 @@ body {
   color: var(--accent-color);
 }
 
-.logo__part--light {
+.logo--dark {
+  color: var(--title-text-color);
+}
+
+.logo--light {
   color: var(--second-text-color);
 }
 

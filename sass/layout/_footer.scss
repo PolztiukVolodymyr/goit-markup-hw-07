@@ -88,10 +88,13 @@
   }
 }
 
-.socials-list__icon--dark {
+.socials-list__icon {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+}
+
+.socials-list__icon--dark {
+  fill: var(--second-text-color);
 }
 
 .subscription-row {
